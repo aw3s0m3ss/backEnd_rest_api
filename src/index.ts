@@ -24,7 +24,7 @@ server.listen(port,()=>{
     console.log(`active on http://localhost:${port}/`)
 });
 
-const MONGO_URL = "mongodb+srv://aw3s0m3ss:qqaa1234@cluster0.uuvbtyf.mongodb.net/";
+const MONGO_URL = "";
 
 mongoose.Promise = global.Promise;
 mongoose.connect(MONGO_URL);
